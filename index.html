@@ -1,27 +1,91 @@
-<!DOCTYPE html>
-<html>
- <head>
-   <title>YOUR NAME Portfolio</title>
- </head>
- <body>
-   <nav>
-     <ul>
-       <li><a href=”/”>Home</a></li>
-       <li><a href=”/about”>About</a></li>
-       <li><a href=”/resume”>Resume</a></li>
-       <li><a href=”/blog”>Blog</a></li>
-     </ul>
-   </nav>
-   <div class=”container”>
-     <div class=”blurb”>
-       <h1>Hi, I am YOUR NAME!</h1>
-       <p>This is my first page for my personal website!</a></p>
-     </div>
-   </div>
-   <footer>
-   <ul>
-     <li><a href=”mailto:YOUREMAIL”>YOUREMAIL</a></li>
-   </ul>
-   </footer>
- </body>
+<!doctype html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Denis Périce</title>
+	<meta name="description" content="Denis Périce's web page">
+	<meta name="keywords" content="Denis Périce, quantum mechanic, phd student, mathematical physics, mathematics, physics">
+	<meta name="author" content="Denis Périce">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+	<link rel="stylesheet" href="dark_theme.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div id="header">
+		<button class="tablinks" id="me" onclick="open_tab(this)">Denis Périce</button>
+		<button class="tablinks" id="papers" onclick="open_tab(this)">Publications</button>
+		<button class="tablinks" id="teaching" onclick="open_tab(this)">Teaching</button>
+	</div>
+	<h1 class="cv">Denis Périce <small>- Phd student in mathematical physics</small></h1>
+
+	<div id="tab_me" class="tabcontent">
+		<div>
+			<div>
+				<img src="icons/pfp.png" alt="Profile Picture">
+				<p><small>
+						🧑 <span id="bday">1997/01/06</span>, He/Him <br>
+						📌 France, Lyon</small>
+				</p>
+			</div>
+			<ul>
+				<li><img src="icons/mail_icon.png" alt="mail icon" width="28"> <a
+						href="mailto:denis.perice@ens-lyon.fr">denis.perice@ens-lyon.fr</a></li>
+				<li><img src="icons/github_icon.png" alt="github icon" width="28" id="github_logo"> <a
+						href="https://github.com/Denis-Perice">Denis-Perice</a></li>
+				<li><img src="icons/discord_icon.png" alt="discord icon" width="28"> Denis Périce#5571</li>
+			</ul>
+		</div>
+		<div>
+			<h3>Research Interests</h3>
+			<p>I loooove fermions
+			</p>
+			<h3>Career</h3>
+			<p>📝 2019 - 2022: Master in blabla <br>
+				<small>azufha haa fhakuf haufhaeiu fhiauf haiuf haio fhaiu
+				</small>
+			</p>
+			<p>⚙️ 2018 - 2019: Travaillé ici
+				<small>j'zaofihaofhaofh aof oaijdoa</small>
+			</p>
+			<p>📝 2017 - 2018: Bachelor in blabla here<br>
+				<small>with internship at blabla</small>
+			</p>
+			<p>⚙️ Summer 2017: internship aifhlafj<br>
+				<small>Wazlkfnalfalfnalifn alnflan flaf la nflan lafnlaz nf</small>
+			</p>
+		</div>
+	</div>
+
+	<div id="tab_papers" class="tabcontent">
+		<h3>My Publications</h3>
+		<p>My master's thesis on vlzhvvnkvjn jvn kaj vnkj n<br>
+			Read it here -> <a href="publications/Master_thesis.pdf">Master_thesis.pdf</a> </p>
+	</div>
+
+	<div id="tab_teaching" class="tabcontent">
+		<h3>🗂️ My teaching</h3>
+		<div>
+			<h4>Topologie et calcul différentiel (L3)</h4>
+			<div>
+			</div>
+
+			<h4>Techniques de bases de mathématiques (L1)</h4>
+			<div>
+			</div>
+
+			<h4>Colles en mathématiques L1/L2</h4>
+			<div>
+			</div>
+
+			<h4>Sujets pour stages</h4>
+			<div>
+			</div>
+		</div>
+	</div>
+</body>
+
 </html>
