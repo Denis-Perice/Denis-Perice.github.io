@@ -229,42 +229,42 @@ li {
 /* ------------------------------------
     PROJECTS
 ------------------------------------ */
-#tab_projects {
+#tab_teaching {
 	flex-direction: column;
 	width: 80%;
 }
 
-#tab_projects > div {
+#tab_teaching > div {
 	display: flex;
 	flex-direction: column;
 	margin: -4ex;
 	margin-top: 0;
 }
 
-#tab_projects h4 {
+#tab_teaching h4 {
 	display: inline-block;
 	margin: 2ex 0 0 0;
 }
 
-#tab_projects > div > div {
+#tab_teaching > div > div {
 	margin: 2ex 4ex 0 0;
 	display: block;
 	flex-direction: row;
 }
 
-#tab_projects > div > div > div {
+#tab_teaching > div > div > div {
 	display: inline-block;
     vertical-align: top;
     margin: 0 1ex 0 0;
 	width: 25%;
 }
 
-#tab_projects > div > div > div:hover {
+#tab_teaching > div > div > div:hover {
 	transform: scale(1.05);
 	position: relative;
 }
 
-#tab_projects > div > div > a {
+#tab_teaching > div > div > a {
 	display: block;
 }
 
@@ -280,7 +280,7 @@ li {
 }
 
 @media only screen and (max-width: 768px) {
-	#tab_projects > div > div > div {
+	#tab_teaching > div > div > div {
 		width: 100%;
 	}
 }
